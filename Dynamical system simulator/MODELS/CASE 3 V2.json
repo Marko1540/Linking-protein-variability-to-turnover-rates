@@ -1,0 +1,232 @@
+{
+  "systems": [
+    {
+      "uid": "1770385715458534500_634633",
+      "name": "Fast turnover",
+      "dx_expr": "5*r(t) - \u03b3*x",
+      "dy_expr": "\u03c3*x - \u03ba*sqrt(x)*y",
+      "color": "#3498db",
+      "show_arrows": true,
+      "show_particles": true,
+      "show_overlay": true
+    },
+    {
+      "uid": "1770385728649778900_407764",
+      "name": "Slow turnover",
+      "dx_expr": "5*r(t) - \u03b3*x",
+      "dy_expr": "\u03c3*x - k*sqrt(x)*y",
+      "color": "#e74c3c",
+      "show_arrows": true,
+      "show_particles": true,
+      "show_overlay": true
+    },
+    {
+      "uid": "1780475875136863300_164574",
+      "name": "System 3",
+      "dx_expr": "5*r(t) - \u03b3*x",
+      "dy_expr": "\u03c3*x - b*sqrt(x)*y",
+      "color": "#2ecc71",
+      "show_arrows": false,
+      "show_particles": true,
+      "show_overlay": true
+    },
+    {
+      "uid": "1780476246755542100_115413",
+      "name": "System 4",
+      "dx_expr": "5*r(t) - \u03b3*x",
+      "dy_expr": "s*x - \u03ba*sqrt(x)*y",
+      "color": "#9b59b6",
+      "show_arrows": false,
+      "show_particles": true,
+      "show_overlay": true
+    },
+    {
+      "uid": "1780476248330550500_197337",
+      "name": "System 5",
+      "dx_expr": "5*r(t) - \u03b3*x",
+      "dy_expr": "s*x - k*sqrt(x)*y",
+      "color": "#f39c12",
+      "show_arrows": false,
+      "show_particles": true,
+      "show_overlay": true
+    },
+    {
+      "uid": "1780476249369571900_549178",
+      "name": "System 6",
+      "dx_expr": "5*r(t) - \u03b3*x",
+      "dy_expr": "s*x - b*sqrt(x)*y",
+      "color": "#1abc9c",
+      "show_arrows": false,
+      "show_particles": true,
+      "show_overlay": true
+    },
+    {
+      "uid": "1780476250472232200_328362",
+      "name": "System 7",
+      "dx_expr": "5*r(t) - \u03b3*x",
+      "dy_expr": "a*x - \u03ba*sqrt(x)*y",
+      "color": "#e91e63",
+      "show_arrows": false,
+      "show_particles": true,
+      "show_overlay": true
+    },
+    {
+      "uid": "1780476251526238800_696917",
+      "name": "System 8",
+      "dx_expr": "5*r(t) - \u03b3*x",
+      "dy_expr": "a*x - k*sqrt(x)*y",
+      "color": "#00bcd4",
+      "show_arrows": false,
+      "show_particles": true,
+      "show_overlay": true
+    },
+    {
+      "uid": "1780476252681722000_702550",
+      "name": "System 9",
+      "dx_expr": "5*r(t) - \u03b3*x",
+      "dy_expr": "a*x - b*sqrt(x)*y",
+      "color": "#3498db",
+      "show_arrows": false,
+      "show_particles": true,
+      "show_overlay": true
+    }
+  ],
+  "definitions": [
+    {
+      "kind": "const",
+      "name": "\u03b3",
+      "expr": "1.0"
+    },
+    {
+      "kind": "smoothstep",
+      "name": "r",
+      "expr": "2,0.5,1.5,3"
+    },
+    {
+      "kind": "const",
+      "name": "\u03c3",
+      "expr": "8"
+    },
+    {
+      "kind": "const",
+      "name": "s",
+      "expr": "4"
+    },
+    {
+      "kind": "const",
+      "name": "a",
+      "expr": "2"
+    },
+    {
+      "kind": "const",
+      "name": "\u03ba",
+      "expr": "8"
+    },
+    {
+      "kind": "const",
+      "name": "k",
+      "expr": "4"
+    },
+    {
+      "kind": "const",
+      "name": "b",
+      "expr": "2"
+    }
+  ],
+  "gates_state": {},
+  "particles": [
+    {
+      "x": 1.5688577871675546,
+      "y": 4.702412526083441,
+      "x0": 2.0583333333333282,
+      "y0": 1.4499999999999993,
+      "color": "#3498db",
+      "name": "p5247",
+      "system_id": "1770385715458534500_634633"
+    },
+    {
+      "x": 1.5688577871675546,
+      "y": 7.548955186096222,
+      "x0": 2.0499999999999945,
+      "y0": 1.441666666666666,
+      "color": "#e74c3c",
+      "name": "p7412",
+      "system_id": "1770385728649778900_407764"
+    },
+    {
+      "x": 2.5334360979837784,
+      "y": 6.226783215248531,
+      "x0": 2.5334360979837784,
+      "y0": 6.226783215248531,
+      "color": "#2ecc71",
+      "name": "p8187",
+      "system_id": "1780475875136863300_164574"
+    },
+    {
+      "x": 3.5797958645259724,
+      "y": 6.306052894532031,
+      "x0": 3.5797958645259724,
+      "y0": 6.306052894532031,
+      "color": "#9b59b6",
+      "name": "p9524",
+      "system_id": "1780476246755542100_115413"
+    },
+    {
+      "x": 4.166391491223869,
+      "y": 5.259693127989838,
+      "x0": 4.166391491223869,
+      "y0": 5.259693127989838,
+      "color": "#f39c12",
+      "name": "p5321",
+      "system_id": "1780476248330550500_197337"
+    },
+    {
+      "x": 3.595649800382672,
+      "y": 4.498704206868242,
+      "x0": 3.595649800382672,
+      "y0": 4.498704206868242,
+      "color": "#1abc9c",
+      "name": "p8242",
+      "system_id": "1780476249369571900_549178"
+    },
+    {
+      "x": 4.768841053778465,
+      "y": 6.46459225309903,
+      "x0": 4.768841053778465,
+      "y0": 6.46459225309903,
+      "color": "#e91e63",
+      "name": "p7856",
+      "system_id": "1780476250472232200_328362"
+    },
+    {
+      "x": 5.276167001192862,
+      "y": 5.148715576992938,
+      "x0": 5.276167001192862,
+      "y0": 5.148715576992938,
+      "color": "#00bcd4",
+      "name": "p7613",
+      "system_id": "1780476251526238800_696917"
+    },
+    {
+      "x": 3.801750966519771,
+      "y": 3.7535692216033465,
+      "x0": 3.801750966519771,
+      "y0": 3.7535692216033465,
+      "color": "#3498db",
+      "name": "p8104",
+      "system_id": "1780476252681722000_702550"
+    }
+  ],
+  "time": 2056.267617225614,
+  "time_scale": 1.0,
+  "scale": 31.53790986158803,
+  "offset": [
+    5.57739178247016,
+    6.781670970233028
+  ],
+  "fade": 5,
+  "x_label": "x",
+  "y_label": "y",
+  "x_unit": "",
+  "y_unit": ""
+}

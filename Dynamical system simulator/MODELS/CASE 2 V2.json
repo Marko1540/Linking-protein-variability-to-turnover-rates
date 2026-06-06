@@ -1,0 +1,153 @@
+{
+  "systems": [
+    {
+      "uid": "1770385715458534500_634633",
+      "name": "Fast turnover",
+      "dx_expr": "5*r(t) - \u03b3*x",
+      "dy_expr": "\u03c3*x - sqrt(\u03c3*x)*y",
+      "color": "#3498db",
+      "show_arrows": true,
+      "show_particles": true,
+      "show_overlay": true
+    },
+    {
+      "uid": "1770385728649778900_407764",
+      "name": "Slow turnover",
+      "dx_expr": "5*r(t) - \u03b3*x",
+      "dy_expr": "s*x - sqrt(s*x)*y",
+      "color": "#e74c3c",
+      "show_arrows": true,
+      "show_particles": true,
+      "show_overlay": true
+    },
+    {
+      "uid": "1780474006966007600_80217",
+      "name": "System 3",
+      "dx_expr": "5*r(t) - \u03b3*x",
+      "dy_expr": "\u03ba*x - sqrt(\u03ba*x)*y",
+      "color": "#2ecc71",
+      "show_arrows": false,
+      "show_particles": true,
+      "show_overlay": true
+    },
+    {
+      "uid": "1780474190590820800_743046",
+      "name": "System 4",
+      "dx_expr": "5*r(t) - \u03b3*x",
+      "dy_expr": "k*x - sqrt(k*x)*y",
+      "color": "#ff9d00",
+      "show_arrows": false,
+      "show_particles": true,
+      "show_overlay": true
+    }
+  ],
+  "definitions": [
+    {
+      "kind": "func",
+      "name": "\u03b2",
+      "expr": "sin(t)*sin(t)"
+    },
+    {
+      "kind": "const",
+      "name": "\u03b3",
+      "expr": "1.0"
+    },
+    {
+      "kind": "const",
+      "name": "\u03c3",
+      "expr": "8"
+    },
+    {
+      "kind": "const",
+      "name": "\u03ba",
+      "expr": "4"
+    },
+    {
+      "kind": "const",
+      "name": "s",
+      "expr": "1"
+    },
+    {
+      "kind": "const",
+      "name": "k",
+      "expr": "2"
+    },
+    {
+      "kind": "gate",
+      "name": "G",
+      "expr": "1,1,0"
+    },
+    {
+      "kind": "step",
+      "name": "b",
+      "expr": "1,1"
+    },
+    {
+      "kind": "smoothstep",
+      "name": "r",
+      "expr": "2,0.5,1.5,3"
+    }
+  ],
+  "gates_state": {
+    "G": 0
+  },
+  "particles": [
+    {
+      "x": 2.6159656369497903,
+      "y": 3.9946318504942306,
+      "x0": 2.0583333333333282,
+      "y0": 1.4499999999999993,
+      "color": "#3498db",
+      "name": "p5247",
+      "system_id": "1770385715458534500_634633"
+    },
+    {
+      "x": 2.615965634538975,
+      "y": 1.3349315360958611,
+      "x0": 2.0499999999999945,
+      "y0": 1.441666666666666,
+      "color": "#e74c3c",
+      "name": "p7412",
+      "system_id": "1770385728649778900_407764"
+    },
+    {
+      "x": 2.4518294869847264,
+      "y": 2.7471270270729047,
+      "x0": 2.4518294869847264,
+      "y0": 2.7471270270729047,
+      "color": "#3498db",
+      "name": "p5024",
+      "system_id": "1770385715458534500_634633"
+    },
+    {
+      "x": 2.6159657256149704,
+      "y": 2.7299524566143996,
+      "x0": 2.364817299375832,
+      "y0": 2.709836089526236,
+      "color": "#2ecc71",
+      "name": "p6134",
+      "system_id": "1780474006966007600_80217"
+    },
+    {
+      "x": 2.615965572782259,
+      "y": 1.8924997172771383,
+      "x0": 1.8365290174646893,
+      "y0": 1.970232494850636,
+      "color": "#ff9d00",
+      "name": "p8009",
+      "system_id": "1780474190590820800_743046"
+    }
+  ],
+  "time": 15.055808782577513,
+  "time_scale": 1.0,
+  "scale": 169.31307763711618,
+  "offset": [
+    -2.3514981574932143,
+    2.374317876386469
+  ],
+  "fade": 4,
+  "x_label": "x",
+  "y_label": "y",
+  "x_unit": "",
+  "y_unit": ""
+}
